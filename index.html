@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://kit.fontawesome.com/10b2548da5.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+    <div class="main" id="main">
+        <nav class="active click">
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <!-- <h2 class="main-h">Foods</h2> -->
+            <ul>
+                <li><a href="about">Home</a></li>
+                <li><a href="menu">About</a></li>
+                <li><a href="main">Menu</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="footer">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="data1">
+            <img src="home.png" class="homepng">
+            <h1>Full Website</h1>
+            <h3>foods the <br> most precious things</h3>
+            <button type="button" class="btn1">Today's menu</button>
+        </div>
+    </div>
+
+    <!---------------- a About division------------------->
+
+    <div class="about" id="about">
+        <img src="about.png" class="aboutPng">
+        <div class="aboutInfo">
+            <h6 class="about-six">about Us</h6>
+            <h4 class="about-four">We speak the good <br> food language</h4>
+            <p> there are many variation passage of loreum iptsum available but the manjority have offered attearation
+                in
+                form , by injected humonour randomised words which don't look even slightly believable</p>
+
+            <button type="button" class="btn2"> Learn more</button>
+        </div>
+    </div>
+
+    <!---------------- a food-menu division------------------->
+
+
+    <section class="menu " id="menu">
+        <div class="heading">
+            <span>Food menu</span>
+            <h2> Food taste and great price</h2>
+        </div>
+
+        <div class="manu-container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="food1.png" alt="">
+                </div>
+                <h2>Chicken Burger</h2>
+                <h3>tasty Food</h3>
+                <span>$ 11.00</span>
+                <i class="fa-regular fa-cart-shopping"></i>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="food2.png" alt="">
+                </div>
+                <h2>Special Beef Burger</h2>
+                <h3>tasty Food</h3>
+                <span>$ 11.00</span>
+                <i class="fa-regular fa-cart-shopping"></i>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="food3.png" alt="">
+                </div>
+                <h2>Chicken Fry pack</h2>
+                <h3>tasty Food</h3>
+                <span>$ 11.00</span>
+                <!-- <i class="fa-duotone fa-cart-shopping"></i> -->
+            </div>
+        </div>
+    </section>
+
+    <!---------------- a section division------------------->
+
+
+    <section class="main" id="division">
+        <span class="main-span"> Section</span>
+        <h2>We provide best quality</h2>
+        <div class="container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="s1.png" alt="">
+                </div>
+                <h3>Order</h3>
+                <p class="main-p"> there are many variation of passage of lorem iptsum available but manjority have suffered
+                    attearation injected human
+                </p>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="s2.png" alt="">
+                </div>
+                <h3>Shopping</h3>
+                <p class="main-p"> there are many variation of passage of lorem iptsum available but manjority have suffered
+                    attearation injected human
+                </p>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="s3.png" alt="">
+                </div>
+                <h3>Deliverd</h3>
+                <p class="main-p"> there are many variation of passage of lorem iptsum available but manjority have suffered
+                    attearation injected human
+                </p>
+            </div>
+        </div>
+        <div class="content">
+            <span> We make quality food Everyday</span>
+            <button class="btn3"> let's look</button>
+        </div>
+    </section>
+
+    <!-- footer designing  -->
+
+    <footer class="footer">
+        <div class="footer-container" id="footer" onclick="click">
+            <div class="foot-content">
+                <h1 > Menu Links</h1>
+
+                <div class="info">
+                    <p>Home</p><br>
+                    <p>about</p><br>
+                    <p>Menu</p><br>
+                    <p>Service</p><br>
+                    <p>Contact</p><br>
+                </div>
+            </div>
+            <div class="foot-content">
+                <h1 > Our Service</h1>
+
+                <div class="info">
+                    <p>Web designing</p><br>
+                    <p>Web development</p><br>
+                    <p>Marketing</p><br>
+                    <p>Product Mangement</p><br>
+                    <p>Graphic designing</p><br>
+                </div>
+            </div>
+            <div class="foot-content">
+                <h1> Information</h1>
+
+                <div class="info">
+                    <p>About us</p><br>
+                    <p>Delivery Information</p><br>
+                    <p>Privacy Policy</p><br>
+                    <p>terms & Condidtions</p><br>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sub-footer">
+        <h3>Made by karan</h3>
+    </div>
+
+
+<script>
+    const toggleButton = document.getElementsByClassName("Burger")[0];
+    const navbar = document.getElementsByClassName("nav")[0];
+
+
+  toggleButton.addEventListener("click",() =>{
+    navbar.classList.toggle("active")
+  })
+
+</script>
+
+</body>
+
+</html>

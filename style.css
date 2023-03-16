@@ -1,0 +1,626 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background-color: #1e1c2a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* --------------styling a home division-----------------*/
+
+
+
+.main {
+    position: relative;
+}
+
+
+nav {
+  
+  
+
+    justify-content: space-between;
+    margin-top: -150px;
+    padding: 20px 30px;
+    height: 20px;
+    position: -webkit-sticky;
+
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    border-radius: 10px;
+    position: relative;
+    left: 320px ;
+    top: -8px;
+    display: none;
+
+}
+
+ul {
+    display: flex;
+    margin-right: 50px;
+  
+   
+
+
+}
+
+ul li a {
+    color: white;
+    margin: 0 10px;
+    transition: 0.3s;
+
+}
+
+ul li a:hover {
+    color: #ff702a;
+}
+
+.homepng {
+    height: 450px;
+    position: absolute;
+    right: 150px;
+    margin-top: -180px;
+}
+
+.data1 h1 {
+    color: #ff702a;
+    font-size: 55px;
+    margin-top: 180px;
+    margin-left: 200px;
+    display: flex;
+}
+
+.data1 h3 {
+    color: white;
+    margin-left: 200px;
+    line-height: 23px;
+    margin-top: 10px;
+}
+
+.btn1 {
+    color: white;
+    background-color: #ff702a;
+    border-radius: 5px;
+    border: 2px solid #ff702a;
+    margin-left: 200px;
+    margin-top: 20px;
+    height: 25px;
+    width: 100px;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.btn1:hover {
+    height: 30px;
+    cursor: pointer;
+}
+
+@media(max-width:750px) {
+
+    nav {
+        display: flex;
+      
+
+        /* justify-content: space-between; */
+        margin-top: -150px;
+        padding: 20px 30px;
+        height: 100px;
+        /* background-color: red; */
+        /* position: -webkit-sticky; */
+        outline: none;
+        /* border: 2px solid red; */
+        
+
+    }
+
+    ul {
+
+        margin-right: 50px;
+        flex-direction: row;
+        /* border: 2px solid red; */
+        display: none;
+      
+     
+    }
+
+
+    .homepng {
+        height: 00px;
+
+    }
+
+    .data1 h1 {
+        color: #ff702a;
+        font-size: 40px;
+        margin-top: 180px;
+        margin-left: 45px;
+        display: flex;
+
+    }
+
+    .data1 h3 {
+        color: white;
+        margin-left: 55px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+
+    .btn1 {
+        color: white;
+        background-color: #ff702a;
+        border-radius: 5px;
+        border: 2px solid #ff702a;
+        margin-left: 55px;
+        margin-top: 50px;
+        height: 30px;
+        width: 100px;
+        font-size: 15px;
+        transition: 0.2s;
+    }
+
+    .main-h {
+        font-size: 0px;
+    }
+
+    ul {
+
+        margin-right: 10px;
+      
+
+    }
+
+    ul li a {
+        color: white;
+        margin: 0 8px;
+        transition: 0.3s;
+        font-size: 12px;
+        /* background-color: red; */
+      
+
+
+
+    }
+    ul li{
+        /* outline: none; */
+        /* border: 2px solid red; */
+        /* background-color: red; */
+     
+       
+      
+        
+    }
+
+
+
+}
+
+/* --------------styling a about division-----------------*/
+.about {
+    margin-top: 250px;
+    display: flex;
+}
+
+.aboutInfo {
+    display: block;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.aboutPng {
+    height: 380px;
+    margin-left: 120px;
+
+
+}
+
+h6 {
+    color: #ff702a;
+    width: 100px;
+    font-size: 15px;
+
+}
+
+h4 {
+    color: white;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 10px;
+
+}
+
+.about p {
+    color: white;
+    margin-top: 15px;
+    width: 600px;
+}
+
+
+.btn2 {
+    color: white;
+    background-color: #ff702a;
+    border-radius: 5px;
+    border: 2px solid #ff702a;
+    /* margin-left: 200px; */
+    margin-top: 20px;
+    height: 25px;
+    width: 100px;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+@media (max-width:750px) {
+
+    .about {
+        margin-top: 80px;
+        display: flex;
+    }
+
+    .aboutPng {
+        height: 0px;
+        /* margin-left: 12px; */
+    }
+
+    .aboutInfo {
+        display: block;
+        margin-left: -60px;
+        margin-top: 40px;
+    }
+
+    .about-six {
+        color: #ff702a;
+        width: 100px;
+        font-size: 15px;
+        position: absolute;
+        top: 500px;
+        left: 120px;
+
+    }
+
+    .about-four {
+        font-size: 25px;
+        line-height: 32px;
+        margin-left: -15px;
+    }
+
+    .about p {
+        color: white;
+        margin-top: 15px;
+        margin-left: -13px;
+        width: 200px;
+    }
+
+    .btn2 {
+        color: white;
+        background-color: #ff702a;
+        border-radius: 5px;
+        border: 2px solid #ff702a;
+        /* margin-left: 200px; */
+        margin-top: 50px;
+        height: 30px;
+        width: 100px;
+        font-size: 15px;
+        transition: 0.2s;
+    }
+
+
+}
+
+/* --------------styling a food-Menu division-----------------*/
+
+.menu {
+    margin-top: 150px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading span {
+    color: #ff702a;
+    font-weight: 600;
+}
+
+.heading h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.manu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 0.02rem;
+    align-items: center;
+    /* margin-left: 100px; */
+
+}
+
+.box {
+    position: relative;
+    margin-top: 4rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    /* background-color: red; */
+    padding: 20px;
+    color: white;
+}
+
+@media (max-width:750px) {
+    span {
+        margin-left: -50px;
+    }
+
+    .heading h2 {
+        color: white;
+        font-size: 20px;
+        margin-left: -45px;
+    }
+
+    .manu-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+        /* grid-gap: 0.2rem; */
+        align-items: center;
+        margin-left: -30px;
+        /* height: 500px; */
+
+    }
+
+
+
+}
+
+
+/* --------------styling a section-Menu division-----------------*/
+
+
+.main {
+    margin-top: 150px;
+}
+
+.main span {
+    align-items: center;
+    color: #ff702a;
+    margin-left: 660px;
+}
+
+.main h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 50px;
+}
+
+.container img {
+    height: 150px;
+
+
+}
+
+.container .box {
+
+    color: #fff;
+    width: 400px;
+    text-align: center;
+
+}
+
+.box h3 {
+    color: #ff702a;
+}
+
+.content {
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    background-color: wheat;
+    height: 200px;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border-radius: 5px;
+
+}
+
+.content span {
+    color: black;
+    background-color: transparent;
+    margin-left: 220px;
+    /* text-align: center; */
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.content .btn3 {
+    position: absolute;
+    color: white;
+    background-color: #ff702a;
+    border: 2px solid #ff702a;
+    top: 150px;
+    padding: 3px 10px;
+    border-radius: 10px;
+
+
+}
+
+@media (max-width:750px) {
+    .main-span {
+        position: absolute;
+        left: -700px;
+
+    }
+
+    .main h2 {
+        text-align: center;
+        color: #fff;
+        /* margin-top: 60px; */
+        position: absolute;
+        font-size: 25px;
+        left: 55px;
+        top: 10px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-left: -5px;
+    }
+
+    .main-p {
+        width: 230px;
+    }
+
+    .content {
+        position: relative;
+        margin: auto;
+        margin-top: 100px;
+        background-color: wheat;
+        height: 250px;
+        width: 250px;
+        /* justify-content: center; */
+        /* align-items: left; */
+        /* text-align: center; */
+        display: flex;
+        border-radius: 5px;
+        margin-left: 28px;
+        overflow: hidden;
+
+    }
+
+    .content span {
+        margin-left: -28px;
+        margin-top: -15px;
+        width: 150px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+
+
+    }
+
+    .btn3 {
+        margin-top: 50px;
+
+    }
+
+
+}
+
+/* --------------styling a footer division-----------------*/
+
+footer {
+    margin-top: 150px;
+}
+
+.footer-container {
+    display: flex;
+    position: relative;
+    margin-left: 100px;
+    flex-direction: row;
+    margin: 100px 100px;
+}
+
+.foot-content {
+
+    margin: 0 60px;
+}
+
+.foot-content h1 {
+    color: white;
+    margin-left: 50px;
+    display: flex;
+    font-size: 25px;
+
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.foot-content p {
+    margin-left: 50px;
+    line-height: 5px;
+    color: rgb(175, 171, 171)
+}
+
+.foot-content p:hover {
+    color: white;
+    cursor: pointer;
+}
+.sub-footer h3{
+    background-color: wheat;
+    text-align: center;
+    padding: 2px 50px;
+}
+  
+@media (max-width:750px) {
+
+
+    footer {
+        margin-top: 150px;
+        margin-left: -200px;
+
+    }
+
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        left: 80px;
+
+        margin-top: 30px;
+        bottom: 0px;
+
+        /* flex-direction: column; */
+        position: relative;
+
+        /* flex-direction: row; */
+        /* margin: 100px 100px; */
+
+    }
+
+
+    .info {
+        margin-left: 2px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-footer h3{
+        background-color: wheat;
+        text-align: center;
+        padding: 2px 50px;
+    }
+      
+    
+    
+
+
+
+}
